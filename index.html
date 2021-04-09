@@ -9,7 +9,7 @@
   <meta name="generator" content="Visual Studio Code">
   <meta name="publisher" content="Full Master Record">
   <link rel="apple-touch-icon" href="img/favicon.ico">
-  <meta name="description" content="Bienvenue sur notre site full master records où vous retrouverez des instrumentals de tout type ainsi que de la formation à la MAO, mais encore du mix ou mastering à distance de vos maquettes">
+  <meta name="description" content="Bienvenue sur notre site full master records où vous retrouverez des instrumentals de tout type ainsi que de la formation à la MAO, mais aussi du mix ou mastering à distance de vos maquettes">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
@@ -17,63 +17,78 @@
 </head>
 <body>
   <header>
-      <a href="index.html"><img src="img/logo.png"></a>
+      <img src="img/logo.png">
       <h1>Full Master Records</h1>
   </header>
-  <div>
-      <h2>Beatz to sell</h2>
-      <article id="1">
-      <table>
-          <tbody>
-            <tr>
-                <td>CALMA</td>
-                <td><audio controls controlsList="nodownload" src="mp3/son1.mp3"></audio></td>
-                <td>15$</td>
-            </tr>
-
-            <tr>
-              <td>PIANA</td>
-              <td><audio controls controlsList="nodownload" src="mp3/son2.mp3"></audio></td>
-              <td>15$</td>
-          </tr>
-        </tbody>
-    </table>
-</article>
-
-    <article id="2">
-        <h1>MIXAGE/MASTER:</h1>
-        <ul>
-            <li>Mixage de maquette à distance (instrumental + voice) : 15$</li>
-            <li>Mix instrumental : 10$</li>
-        </ul>
+  
+  <section>
+      <h2>Nos Offres</h2>
+      
+      <article>
+        <h3>Beatz to sell</h3>
+          <table>
+              <tbody>
+                  <tr id="name">
+                      <td>Track</td>
+                      <td>Listen</td>
+                      <td>Price</td>
+                  </tr>
+                  <tr>
+                    <td>calma</td>
+                    <td><audio controls controlsList="nodownload" src="mp3/son1.mp3"></audio></td>
+                    <td>15$</td>
+                </tr>
+                <tr>
+                    <td>piana</td>
+                    <td><audio controls controlsList="nodownload" src="mp3/son2.mp3"></audio></td>
+                    <td>15$</td>
+                </tr>
+            </tbody>
+        </table>
+        <a id="cmd" href="#commander">👉 Commander 👈</a>
     </article>
 
-    <article id="3">
-        <h1>Beat Lesson on FL Studio : 25$ (Discord)</h1>
-        <ul>
-            <li>Tricks & Tips</li>
-            <li>Bases mixages (équalizer, cleaning, compressor)</li>
-            <li>Levels (Output gain)</li>
-            <li>Mono/Stéréo</li>
-            <li>Position the instruments (right, left, behind, in front)</li>
-            <li>Effects placements</li>
-        </ul>
+    <article>
+        <h3>Mixage & Master</h3>
+        <p>Mixage de maquette à distance (instrumental + voice) : 15$</p>
+        <p>Mix instrumental : 10$</p>
+        <a id="cmd" href="#commander">👉 Commander 👈</a>
     </article>
 
-    <a id="insta" href="https://www.instagram.com/theo.mkn/" target="_blank"><i class="fab fa-instagram"></i></a>
-   
-    <iframe src="https://discordapp.com/widget?id=830087024660054046&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <article>
+        <h3>Beat Lesson on FL Studio : 25$</h3>
+        <p>Tricks & Tips</p>
+        <p>Bases mixages (équalizer, cleaning, compressor)</p>
+        <p>Levels (Output gain</p>
+        <p>Position the instruments (right, left, behind, in front)</p>
+        <p>Mono/Stéréo</p>
+        <p>Effects placements</p>
+        <a id="cmd" href="#commander">👉 Commander 👈</a>
+    </article>
 
-    <a href = "mailto:fullmasterrecord@gmail.com">📧 Nous envoyer un mail !</a>
+    <h2 id="commander">Commander</h2>
 
-</div>
-
-    <footer>
+    <article id="command">
+        <h3>Instructions pour commander</h3>
+        <p>👉 Etape 1 : prendre contact avec nous afin de nous informer de ce que souhaitez commander</p>
+        <div id="rs">
+            <a href="https://discord.gg/3PrzwYmX" target="_blank"><i id="discord" class="fab fa-discord"></i></a>
+            <a href="https://www.instagram.com/theo.mkn/" target="_blank"><i id="insta" class="fab fa-instagram"></i></a>
+            <a href ="mailto:fullmasterrecord@gmail.com"><i  id="mail" class="far fa-envelope"></i></a>
+        </div>
+        <p>👉 Etape 2 : Procéder au paiement avec le bouton Paypal situé ci-dessous</p>
+        <p>Bases mixages (équalizer, cleaning, compressor)</p>
         <form action="https://www.paypal.com/donate" method="post" target="_top">
             <input type="hidden" name="hosted_button_id" value="XZH4AZJ8MPC3L" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_FR/i/scr/pixel.gif" width="1" height="1" />
-            </form>
+            <input type="image" src="https://www.paypalobjects.com/en_US/FR/i/btn/btn_donateCC_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        </form>
+        <p>👉 Etape 3 : Vous recevrez la commande sur le réseau social sur lequel vous nous avez ajouté</p>
+    </article>
+
+
+</section>
+
+    <footer>
         <h4>&copy; 2021 Full Master Record | Tous droits réservés.</h4>
     </footer>
 </body>
