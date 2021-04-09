@@ -57,6 +57,12 @@ a#insta
     font-size: 75px;
 }
 
+a#insta:hover
+{
+    transition: 0.3s all;
+    color :  #fc6c85;
+}
+
 article#1
 {
     background: rgb(2,0,36);
