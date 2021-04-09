@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 img
 {
     height : 100px;
@@ -7,4 +9,11 @@ img
 header
 {
     text-align: center;
+    background-color: #371AC1;
 }
+
+header h1
+{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
