@@ -14,12 +14,6 @@ img
     width: 95px;
 }
 
-header
-{
-    text-align: center;
-    background-color: #371AC1;
-}
-
 header h1
 {
     color: #fff;
@@ -41,10 +35,18 @@ table
 div
 {
     margin-top: 5%;
+    text-align: center;
 }
 
-footer
+footer,header
 {
     width: 100%;
     text-align: center;
+    background-color: #371AC1;
+    color: #fff;
+}
+
+div#rs a i
+{
+    color : #004d7c;
 }
