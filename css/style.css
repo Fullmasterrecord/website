@@ -30,6 +30,7 @@ table
 {
     margin : auto;
     border-spacing: 20px;
+
 }
 
 div
@@ -46,7 +47,30 @@ footer,header
     color: #fff;
 }
 
-div#rs a i
+a#insta i
 {
     color : #004d7c;
+}
+
+a#insta
+{
+    font-size: 25px;
+}
+
+article#1
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+article#2
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,77,201,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+article#3
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,95,153,1) 35%, rgba(0,212,255,1) 100%);
 }
