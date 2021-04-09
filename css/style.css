@@ -12,15 +12,14 @@ header
 {
     background-color: #371AC1;
     width: 100%;
-    height: 120px;
 }
 
 header img
 {
-    height: 95px;
-    width: 95px;
+    height: 80px;
+    width: 80px;
     position: absolute;
-    margin: 10px;
+    margin: 7px;
     text-align: left;
 }
 
@@ -72,7 +71,7 @@ table
 {
     margin : auto;
     border-spacing: 20px;
-
+    overflow-x:auto;
 }
 
 td
@@ -145,49 +144,48 @@ footer
     text-align: center;
 }
 
-/*
+/* Responsive Design */
 
-
-
-div
+@media screen and (max-width: 1080px)
 {
-    margin-top: 5%;
-    text-align: center;
+    header img
+    {
+        width: 40px;
+        height: 40px;
+    }
+    header h1
+    {
+        font-size: 15px;
+        line-height: 60px;
+    }
+
+    table tr td
+    {
+        font-size: 12px;
+    }
+
+    audio
+    {
+        width: 150px;
+    }
+
+    section h2
+    {
+        font-size: 40px;
+    }
+
+    article h3
+    {
+        font-size: 20px;
+    }
+
+    article p
+    {
+        font-size: 15px;
+    }
+    div#rs a i
+    {
+        font-size: 60px;
+        margin: 50px;
+    }
 }
-
-
-
-a#insta i
-{
-    color : #004d7c;
-}
-
-a#insta
-{
-    font-size: 75px;
-}
-
-a#insta i:hover
-{
-    transition: 0.3s all;
-    color :  #fc6c85;
-}
-
-article#1
-{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,9,121,1) 35%, rgba(0,212,255,1) 100%); 
-}
-
-article#2
-{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,77,201,1) 35%, rgba(0,212,255,1) 100%);
-}
-
-article#3
-{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,95,153,1) 35%, rgba(0,212,255,1) 100%);
-}
-*/
