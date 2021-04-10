@@ -220,7 +220,7 @@ footer a i:hover
 
     audio
     {
-        width: 100px;
+        width: 200px;
     }
 
     section h2
@@ -250,7 +250,8 @@ footer a i:hover
 
     div#creator
     {
-        width: 80%;
+        width: 90%;
+        margin: 5% auto;
     }
 
     div#creator p
