@@ -173,9 +173,9 @@ div#creator h4
 div#creator
 {
     padding: 1%;
-    border: 2px solid #fff;
-    width: 70%;
-    margin: 2% auto;
+    border: 1px solid #fff;
+    width: 25%;
+    margin: 1% auto;
 }
 footer a i
 {
@@ -250,13 +250,7 @@ footer a i:hover
 
     div#creator
     {
-        width: 90%;
-        margin: 5% auto;
-    }
-
-    div#creator p
-    {
-        font-size: 10px;
+        width: 75%;
     }
 
     div#creator h4
