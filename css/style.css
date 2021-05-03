@@ -138,15 +138,7 @@ div#rs a i#mail:hover
     color: #4c807c;
 }
 
-footer
-{
-    border-top: 1px solid #000;
-    background: rgb(9,9,121);
-    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
-    text-align: center;
-    color: #fff;
-    font-size: 15px;
-}
+
 
 /* Don */
 
@@ -178,6 +170,17 @@ div#creator
     width: 25%;
     margin: 1% auto;
 }
+/* footer */
+
+footer
+{
+    border-top: 1px solid #000;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
 footer a i
 {
     text-align: center;
@@ -190,12 +193,31 @@ footer a i#vitag
     color: #fff;
 }
 
-
 footer a i:hover
 {
     transition: 0.3s all;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1080px)
+{
+    div#creator
+    {
+        width: 75%;
+    }
+
+    div#creator h4
+    {
+        font-size: 15px;
+    }
+
+    footer a i
+    {
+        font-size: 75px;
+    }
+}
+
+/* end footer*/
 
 
 /* Responsive Design */
