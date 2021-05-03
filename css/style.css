@@ -140,8 +140,9 @@ div#rs a i#mail:hover
 
 footer
 {
-    border-top: 2px solid #000;
-    background-color: #371AC1;
+    border-top: 1px solid #000;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
     text-align: center;
     color: #fff;
     font-size: 15px;
