@@ -163,6 +163,8 @@ div#creator h4
     font-weight: bolder;
 }
 
+/* footer */
+
 div#creator
 {
     padding: 1%;
@@ -170,7 +172,6 @@ div#creator
     width: 25%;
     margin: 1% auto;
 }
-/* footer */
 
 footer
 {
@@ -180,6 +181,8 @@ footer
     text-align: center;
     color: #fff;
     font-size: 15px;
+    width: 100%;
+    position: absolute;
 }
 footer a i
 {
@@ -218,7 +221,6 @@ footer a i:hover
 }
 
 /* end footer*/
-
 
 /* Responsive Design */
 
