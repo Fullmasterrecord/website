@@ -138,7 +138,70 @@ div#rs a i#mail:hover
     color: #4c807c;
 }
 
+
+/* Responsive Design */
+
+@media screen and (max-width: 1080px)
+{
+    header img
+    {
+        width: 40px;
+        height: 40px;
+    }
+    header h1
+    {
+        font-size: 12px;
+        line-height: 60px;
+        margin-left: 25px;
+    }
+
+    table tr td
+    {
+        font-size: 12px;
+    }
+
+    audio
+    {
+        width: 200px;
+    }
+
+    section h2
+    {
+        font-size: 40px;
+    }
+
+    article h3
+    {
+        font-size: 20px;
+    }
+
+    article p
+    {
+        font-size: 15px;
+    }
+    div#rs a i
+    {
+        font-size: 60px;
+        margin: 50px;
+    }
+
+    a#cmd
+    {
+        font-size: 15px;
+    }
+}
+
 /* footer */
+
+footer
+{
+    border-top: 1px solid #000;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
 
 div#creator h4
 {
@@ -205,70 +268,3 @@ footer a i:hover
 }
 
 /* end footer*/
-
-/* Responsive Design */
-
-@media screen and (max-width: 1080px)
-{
-    header img
-    {
-        width: 40px;
-        height: 40px;
-    }
-    header h1
-    {
-        font-size: 12px;
-        line-height: 60px;
-        margin-left: 25px;
-    }
-
-    table tr td
-    {
-        font-size: 12px;
-    }
-
-    audio
-    {
-        width: 200px;
-    }
-
-    section h2
-    {
-        font-size: 40px;
-    }
-
-    article h3
-    {
-        font-size: 20px;
-    }
-
-    article p
-    {
-        font-size: 15px;
-    }
-    div#rs a i
-    {
-        font-size: 60px;
-        margin: 50px;
-    }
-
-    a#cmd
-    {
-        font-size: 15px;
-    }
-
-    div#creator
-    {
-        width: 75%;
-    }
-
-    div#creator h4
-    {
-        font-size: 15px;
-    }
-
-    footer a i
-    {
-        font-size: 75px;
-    }
-}
