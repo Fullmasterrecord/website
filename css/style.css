@@ -138,21 +138,7 @@ div#rs a i#mail:hover
     color: #4c807c;
 }
 
-
-
-/* Don */
-
-div#creator p,div#creator h4
-{
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-}
-
-div#creator p
-{
-    font-size: 16px;
-    margin: 5px;
-}
+/* footer */
 
 div#creator h4
 {
@@ -162,8 +148,6 @@ div#creator h4
     text-align: center;
     font-weight: bolder;
 }
-
-/* footer */
 
 div#creator
 {
