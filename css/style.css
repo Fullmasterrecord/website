@@ -196,7 +196,7 @@ div#rs a i#mail:hover
 div#creator h4
 {
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 15px;
     text-align: center;
     font-weight: bolder;
@@ -207,7 +207,7 @@ div#creator
 {
     border: 1px solid #fff;
     width: 25%;
-    margin: 0.5% auto;
+    margin: 1% auto;
 }
 
 footer
@@ -226,7 +226,7 @@ footer a i
 {
     text-align: center;
     font-size: 100px;
-    margin: 2%;
+    margin: 5%;
 }
 
 footer a i#vitag
