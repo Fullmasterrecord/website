@@ -193,70 +193,16 @@ div#rs a i#mail:hover
 
 /* footer */
 
-div#creator h4
-{
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 15px;
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-}
-
-div#creator
-{
-    border: 1px solid #fff;
-    width: 25%;
-    margin: 1% auto;
-}
-
 footer
 {
     border-top: 1px solid #000;
-    background: rgb(9,9,121);
-    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
+    background-color: #371AC1;
     text-align: center;
     color: #fff;
     font-size: 15px;
     width: 100%;
     position: absolute;
     margin-top: 10%;
-}
-footer a i
-{
-    text-align: center;
-    font-size: 100px;
-    margin: 5%;
-}
-
-footer a i#vitag
-{
-    color: #fff;
-}
-
-footer a i:hover
-{
-    transition: 0.3s all;
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 1080px)
-{
-    div#creator
-    {
-        width: 75%;
-    }
-
-    div#creator h4
-    {
-        font-size: 15px;
-    }
-
-    footer a i
-    {
-        font-size: 75px;
-    }
 }
 
 /* end footer*/
